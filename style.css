@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
+}
+
+header h1,
+.container h2,
+#Loja h2{
+        font-family: "Bungee", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.container p,
+form input,
+form textarea,
+form button{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header a{
+    color: #fff;
+
+}
+
+section .container,
+header{
+    max-width: 100%;
+    width:auto;
+    display:flex;
+}
+
+header h1,
+nav li{
+    margin-left: 80px;
+}
+
+
+#Loja h2{
+    margin-left: 100px;
+}
+
+#contact h2{
+    margin-left: 90px;
+}
+
+
+header{
+    background-color: black;
+    color:#fff;
+    padding: 16px 16px;
+    width: 100%;
+}
+
+header  a{    
+    text-decoration: none;
+}
+
+header nav li  { 
+    display:block;
+    width: 100px;
+    padding-top: 1px;
+}
+
+.todos img{ 
+    height: 250px;
+}
+
+.todos{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 90px;
+    margin-top: 10px;
+
+}
+
+.todos a{   
+    display: block;
+    text-decoration: none;
+    background-color: #1f295c;
+    color: #f6f7fa;
+    width: 110px;
+
+}
+
+.pubg,
+.evil-4,
+.left{
+    margin-top: 18px;
+}
+
+
+.brands-list img{
+    height: 24px;
+}
+
+.brands-list li{
+    display: inline;
+    margin-left: 10px;
+
+}
+
+section .container{
+    max-width:100%;
+}
+
+.img1{
+    margin-left: 90px;
+}
+
+section .container p,
+h2{
+    margin-left: 15px;
+}
+
+.form input,
+button,
+form textarea{
+display:block;
+width: 320px;
+margin-bottom:8px;
+padding:8px;
+}
+
+form button{
+    cursor: pointer;
+}
+
+form textarea{
+    height: 180px;
+}
+
+.social-links img{
+    height:25px;
+}
+
+.social-links li{
+    margin-left: 100px;
+    display: inline;
+    justify-content: space-between;
+}
+
+
+#contact .container{
+    display:block;
+}
+
+.all{
+    display:flex;
+    justify-content: space-between;
+}
+
+form textarea{
+    resize:none;
+}
+
+.endereço{
+    margin-right: 50px;
+}
+
+.form form{
+    margin-left:90px;
+}
+
+form button{
+    background-color: rgb(3, 3, 117);
+    color: #fff;
+    border-radius:20px ;
+    border-color: #fff;
+}
+
+
+#footer p{
+    margin-left:90px;
+    height: 180px;
+    display: flex;
+    align-items:center;
+}
+
+#Loja,
+#Sobre-a-Loja,
+#contact{
+    background-color: #060a1a;
+}
+
+
+#footer{
+    background-color: rgb(0, 0, 0);
+}
+
+.container p{
+    color:#fff;
+}
+
+section h2{
+    color: #fff;
+}
