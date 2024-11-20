@@ -67,6 +67,12 @@ header nav li  {
 
 .todos img{ 
     height: 250px;
+    cursor: pointer;
+    transition:0.0.0,5ms;
+}
+
+.todos img:hover{
+    scale: 1.05;
 }
 
 .todos{ 
@@ -177,7 +183,7 @@ form button{
 
 #footer p{
     margin-left:90px;
-    height: 180px;
+    height: 80px;
     display: flex;
     align-items:center;
 }
