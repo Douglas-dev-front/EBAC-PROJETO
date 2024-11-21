@@ -69,6 +69,7 @@ header nav li  {
     height: 250px;
     cursor: pointer;
     transition:0.0.0,5ms;
+    filter: drop-shadow(3px 3px 3px  #a9a8b4);
 }
 
 .todos img:hover{
@@ -117,6 +118,7 @@ section .container{
 
 .img1{
     margin-left: 90px;
+    filter: drop-shadow(3px 3px 3px #a9a8b4);
 }
 
 section .container p,
@@ -135,6 +137,11 @@ padding:8px;
 
 form button{
     cursor: pointer;
+    transition: 0.0.0,1ms;
+}
+
+form button:hover{
+    scale: 1.1;
 }
 
 form textarea{
@@ -205,4 +212,8 @@ form button{
 
 section h2{
     color: #fff;
+}
+
+form input text{
+    cursor: pointer;
 }
