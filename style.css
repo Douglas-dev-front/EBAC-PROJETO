@@ -11,6 +11,7 @@ header .container{
     justify-content: space-between;
 }
 
+
 header  nav li {
     display: inline-flex;
     margin-right: 20px;
@@ -81,9 +82,8 @@ header  a{
     text-decoration: none;
 }
 
-
 .todos img{
-    height:400px;
+    height:260px;
     max-width: 100%;
     cursor: pointer;
     transition:0.0.0,5ms;
@@ -108,6 +108,7 @@ header  a{
     color: #f6f7fa;
     width: 110px;
     margin-top: 9px;
+    margin-bottom: 10px;
     font-size: small;
 }
 
@@ -172,6 +173,7 @@ form button:hover{
 
 form textarea{
     height: 180px;
+    resize: none;
 }
 
 .social-links img{
@@ -202,9 +204,6 @@ form textarea{
     justify-content: space-between;
 }
 
-form textarea{
-    resize:none;
-}
 
 .form h2{  
 margin-top: 5px;    
@@ -253,4 +252,67 @@ footer .container {
 
 section h2{
     color: #fff;
+}
+
+@media screen and (max-width:1080px ) {
+    .img1 img{
+        width: 100%;
+    }
+    .brands-list ul{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .social-links{
+        flex-direction: column;
+    }
+    .todos img{
+        height:100%;
+        max-width:95%;
+        }
+    
+    .container{
+        margin-left:5px;
+        max-width: 95%;
+        text-align: center;
+        padding:0% 2%;
+    }
+    .social-links h2{
+        margin-top: 11px;
+    }
+
+    .endereço h2{
+        margin-left:0px;
+        margin-top: 10px;
+        margin-bottom: 1px;
+        text-align: center;
+    }
+    .endereço p{
+        margin-top: 7px;
+        text-align: center;
+    }
+
+    .container .all{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    /*  CLASSES GERAIS */
+    .container{
+        flex-direction: column;
+    }
+
+    /*CABEÇALHO*/
+    .navegacao{ 
+        display: none;
+    }
+    footer .container {
+        font-size: 13px;
+    }
+    .form input,
+button,
+form textarea{
+    width: 100%;
+}
+.todos p{
+    margin-bottom: 10px;
 }
